@@ -1,0 +1,1281 @@
+src/thrift/protocol/TDebugProtocol.lo: \
+  src/thrift/protocol/TDebugProtocol.cpp \
+  src/thrift/protocol/TDebugProtocol.h \
+  src/thrift/protocol/TVirtualProtocol.h src/thrift/protocol/TProtocol.h \
+  src/thrift/transport/TTransport.h src/thrift/Thrift.h \
+  src/thrift/transport/PlatformSocket.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/errno.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__config \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_symbol_aliasing.h \
+  /usr/include/sys/_posix_availability.h src/thrift/thrift-config.h \
+  src/thrift/config.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdio.h \
+  /usr/include/stdio.h /usr/include/Availability.h \
+  /usr/include/AvailabilityInternal.h /usr/include/_types.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/i386/_types.h /usr/include/sys/_pthread/_pthread_types.h \
+  /usr/include/sys/_types/_va_list.h /usr/include/machine/types.h \
+  /usr/include/i386/types.h /usr/include/sys/_types/_int8_t.h \
+  /usr/include/sys/_types/_int16_t.h /usr/include/sys/_types/_int32_t.h \
+  /usr/include/sys/_types/_int64_t.h /usr/include/sys/_types/_u_int8_t.h \
+  /usr/include/sys/_types/_u_int16_t.h \
+  /usr/include/sys/_types/_u_int32_t.h \
+  /usr/include/sys/_types/_u_int64_t.h \
+  /usr/include/sys/_types/_intptr_t.h \
+  /usr/include/sys/_types/_uintptr_t.h /usr/include/sys/_types/_size_t.h \
+  /usr/include/sys/_types/_null.h /usr/include/sys/stdio.h \
+  /usr/include/sys/_types/_off_t.h /usr/include/sys/_types/_ssize_t.h \
+  /usr/include/assert.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdlib.h \
+  /usr/include/stdlib.h /usr/include/sys/wait.h \
+  /usr/include/sys/_types/_pid_t.h /usr/include/sys/_types/_id_t.h \
+  /usr/include/sys/signal.h /usr/include/sys/appleapiopts.h \
+  /usr/include/machine/signal.h /usr/include/i386/signal.h \
+  /usr/include/machine/_mcontext.h /usr/include/i386/_mcontext.h \
+  /usr/include/mach/machine/_structs.h /usr/include/mach/i386/_structs.h \
+  /usr/include/sys/_pthread/_pthread_attr_t.h \
+  /usr/include/sys/_types/_sigaltstack.h \
+  /usr/include/sys/_types/_ucontext.h \
+  /usr/include/sys/_types/_sigset_t.h /usr/include/sys/_types/_uid_t.h \
+  /usr/include/sys/resource.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/stdint.h \
+  /usr/include/stdint.h /usr/include/_types/_uint8_t.h \
+  /usr/include/_types/_uint16_t.h /usr/include/_types/_uint32_t.h \
+  /usr/include/_types/_uint64_t.h /usr/include/_types/_intmax_t.h \
+  /usr/include/_types/_uintmax_t.h /usr/include/sys/_types/_timeval.h \
+  /usr/include/machine/endian.h /usr/include/i386/endian.h \
+  /usr/include/sys/_endian.h /usr/include/libkern/_OSByteOrder.h \
+  /usr/include/libkern/i386/_OSByteOrder.h /usr/include/alloca.h \
+  /usr/include/sys/_types/_ct_rune_t.h /usr/include/sys/_types/_rune_t.h \
+  /usr/include/sys/_types/_wchar_t.h /usr/include/sys/_types/_dev_t.h \
+  /usr/include/sys/_types/_mode_t.h /usr/include/sys/types.h \
+  /usr/include/sys/_types/_u_char.h /usr/include/sys/_types/_u_short.h \
+  /usr/include/sys/_types/_u_int.h /usr/include/sys/_types/_caddr_t.h \
+  /usr/include/sys/_types/_blkcnt_t.h \
+  /usr/include/sys/_types/_blksize_t.h /usr/include/sys/_types/_gid_t.h \
+  /usr/include/sys/_types/_in_addr_t.h \
+  /usr/include/sys/_types/_in_port_t.h /usr/include/sys/_types/_ino_t.h \
+  /usr/include/sys/_types/_ino64_t.h /usr/include/sys/_types/_key_t.h \
+  /usr/include/sys/_types/_nlink_t.h /usr/include/sys/_types/_clock_t.h \
+  /usr/include/sys/_types/_time_t.h \
+  /usr/include/sys/_types/_useconds_t.h \
+  /usr/include/sys/_types/_suseconds_t.h \
+  /usr/include/sys/_types/_rsize_t.h /usr/include/sys/_types/_errno_t.h \
+  /usr/include/sys/_types/_fd_def.h \
+  /usr/include/sys/_types/_fd_setsize.h \
+  /usr/include/sys/_types/_fd_set.h /usr/include/sys/_types/_fd_clr.h \
+  /usr/include/sys/_types/_fd_zero.h /usr/include/sys/_types/_fd_isset.h \
+  /usr/include/sys/_types/_fd_copy.h \
+  /usr/include/sys/_pthread/_pthread_cond_t.h \
+  /usr/include/sys/_pthread/_pthread_condattr_t.h \
+  /usr/include/sys/_pthread/_pthread_mutex_t.h \
+  /usr/include/sys/_pthread/_pthread_mutexattr_t.h \
+  /usr/include/sys/_pthread/_pthread_once_t.h \
+  /usr/include/sys/_pthread/_pthread_rwlock_t.h \
+  /usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
+  /usr/include/sys/_pthread/_pthread_t.h \
+  /usr/include/sys/_pthread/_pthread_key_t.h \
+  /usr/include/sys/_types/_fsblkcnt_t.h \
+  /usr/include/sys/_types/_fsfilcnt_t.h /usr/include/netinet/in.h \
+  /usr/include/sys/socket.h /usr/include/machine/_param.h \
+  /usr/include/i386/_param.h /usr/include/net/net_kev.h \
+  /usr/include/sys/_types/_sa_family_t.h \
+  /usr/include/sys/_types/_socklen_t.h \
+  /usr/include/sys/_types/_iovec_t.h /usr/include/netinet6/in6.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/inttypes.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/inttypes.h \
+  /usr/include/inttypes.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__string \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/initializer_list \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/stddef.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/__stddef_max_align_t.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/string.h \
+  /usr/include/string.h /usr/include/strings.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/utility \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tuple \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/memory \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/typeinfo \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/exception \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdlib \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdint \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/new \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__undef_min_max \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/iterator \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/wchar.h \
+  /usr/include/wchar.h /usr/include/sys/_types/_mbstate_t.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/stdarg.h \
+  /usr/include/time.h /usr/include/sys/_types/_timespec.h \
+  /usr/include/_wctype.h /usr/include/sys/_types/_wint_t.h \
+  /usr/include/_types/_wctype_t.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctype.h \
+  /usr/include/ctype.h /usr/include/runetype.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/tuple \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/stdexcept \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/atomic \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/cstdio \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwchar \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/cwctype \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/cctype \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/wctype.h \
+  /usr/include/wctype.h /usr/include/_types/_wctrans_t.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__tree \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/functional \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/set \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/vector \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/limits.h \
+  /usr/include/limits.h /usr/include/machine/limits.h \
+  /usr/include/i386/limits.h /usr/include/i386/_limits.h \
+  /usr/include/sys/syslimits.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer \
+  /usr/local/include/boost/utility/enable_if.hpp \
+  /usr/local/include/boost/core/enable_if.hpp \
+  /usr/local/include/boost/config.hpp \
+  /usr/local/include/boost/config/user.hpp \
+  /usr/local/include/boost/config/detail/select_compiler_config.hpp \
+  /usr/local/include/boost/config/compiler/clang.hpp \
+  /usr/local/include/boost/config/detail/select_stdlib_config.hpp \
+  /usr/local/include/boost/config/stdlib/libcpp.hpp \
+  /usr/local/include/boost/config/detail/select_platform_config.hpp \
+  /usr/local/include/boost/config/platform/macos.hpp \
+  /usr/local/include/boost/config/detail/posix_features.hpp \
+  /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/_types/_posix_vdisable.h \
+  /usr/include/sys/_types/_seek_set.h /usr/include/sys/select.h \
+  /usr/include/sys/_select.h /usr/include/sys/_types/_uuid_t.h \
+  /usr/include/gethostuuid.h \
+  /usr/local/include/boost/config/detail/suffix.hpp \
+  /usr/local/include/boost/type_traits/is_convertible.hpp \
+  /usr/local/include/boost/type_traits/intrinsics.hpp \
+  /usr/local/include/boost/type_traits/detail/config.hpp \
+  /usr/local/include/boost/version.hpp \
+  /usr/local/include/boost/detail/workaround.hpp \
+  /usr/local/include/boost/config/workaround.hpp \
+  /usr/local/include/boost/type_traits/integral_constant.hpp \
+  src/thrift/TLogging.h src/thrift/TOutput.h src/thrift/stdcxx.h \
+  src/thrift/transport/TTransportException.h \
+  /usr/local/include/boost/numeric/conversion/cast.hpp \
+  /usr/local/include/boost/type.hpp \
+  /usr/local/include/boost/numeric/conversion/converter.hpp \
+  /usr/local/include/boost/numeric/conversion/conversion_traits.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/conversion_traits.hpp \
+  /usr/local/include/boost/type_traits/is_arithmetic.hpp \
+  /usr/local/include/boost/type_traits/is_integral.hpp \
+  /usr/local/include/boost/type_traits/is_floating_point.hpp \
+  /usr/local/include/boost/type_traits/is_same.hpp \
+  /usr/local/include/boost/type_traits/remove_cv.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/meta.hpp \
+  /usr/local/include/boost/mpl/if.hpp \
+  /usr/local/include/boost/mpl/aux_/value_wknd.hpp \
+  /usr/local/include/boost/mpl/aux_/static_cast.hpp \
+  /usr/local/include/boost/mpl/aux_/config/workaround.hpp \
+  /usr/local/include/boost/mpl/aux_/config/integral.hpp \
+  /usr/local/include/boost/mpl/aux_/config/msvc.hpp \
+  /usr/local/include/boost/mpl/aux_/config/eti.hpp \
+  /usr/local/include/boost/mpl/aux_/na_spec.hpp \
+  /usr/local/include/boost/mpl/lambda_fwd.hpp \
+  /usr/local/include/boost/mpl/void_fwd.hpp \
+  /usr/local/include/boost/mpl/aux_/adl_barrier.hpp \
+  /usr/local/include/boost/mpl/aux_/config/adl.hpp \
+  /usr/local/include/boost/mpl/aux_/config/intel.hpp \
+  /usr/local/include/boost/mpl/aux_/config/gcc.hpp \
+  /usr/local/include/boost/mpl/aux_/na.hpp \
+  /usr/local/include/boost/mpl/bool.hpp \
+  /usr/local/include/boost/mpl/bool_fwd.hpp \
+  /usr/local/include/boost/mpl/integral_c_tag.hpp \
+  /usr/local/include/boost/mpl/aux_/config/static_constant.hpp \
+  /usr/local/include/boost/mpl/aux_/na_fwd.hpp \
+  /usr/local/include/boost/mpl/aux_/config/ctps.hpp \
+  /usr/local/include/boost/mpl/aux_/config/lambda.hpp \
+  /usr/local/include/boost/mpl/aux_/config/ttp.hpp \
+  /usr/local/include/boost/mpl/int.hpp \
+  /usr/local/include/boost/mpl/int_fwd.hpp \
+  /usr/local/include/boost/mpl/aux_/nttp_decl.hpp \
+  /usr/local/include/boost/mpl/aux_/config/nttp.hpp \
+  /usr/local/include/boost/mpl/aux_/integral_wrapper.hpp \
+  /usr/local/include/boost/preprocessor/cat.hpp \
+  /usr/local/include/boost/preprocessor/config/config.hpp \
+  /usr/local/include/boost/mpl/aux_/lambda_arity_param.hpp \
+  /usr/local/include/boost/mpl/aux_/template_arity_fwd.hpp \
+  /usr/local/include/boost/mpl/aux_/arity.hpp \
+  /usr/local/include/boost/mpl/aux_/config/dtp.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessor/params.hpp \
+  /usr/local/include/boost/mpl/aux_/config/preprocessor.hpp \
+  /usr/local/include/boost/preprocessor/comma_if.hpp \
+  /usr/local/include/boost/preprocessor/punctuation/comma_if.hpp \
+  /usr/local/include/boost/preprocessor/control/if.hpp \
+  /usr/local/include/boost/preprocessor/control/iif.hpp \
+  /usr/local/include/boost/preprocessor/logical/bool.hpp \
+  /usr/local/include/boost/preprocessor/facilities/empty.hpp \
+  /usr/local/include/boost/preprocessor/punctuation/comma.hpp \
+  /usr/local/include/boost/preprocessor/repeat.hpp \
+  /usr/local/include/boost/preprocessor/repetition/repeat.hpp \
+  /usr/local/include/boost/preprocessor/debug/error.hpp \
+  /usr/local/include/boost/preprocessor/detail/auto_rec.hpp \
+  /usr/local/include/boost/preprocessor/tuple/eat.hpp \
+  /usr/local/include/boost/preprocessor/inc.hpp \
+  /usr/local/include/boost/preprocessor/arithmetic/inc.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessor/enum.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp \
+  /usr/local/include/boost/mpl/limits/arity.hpp \
+  /usr/local/include/boost/preprocessor/logical/and.hpp \
+  /usr/local/include/boost/preprocessor/logical/bitand.hpp \
+  /usr/local/include/boost/preprocessor/identity.hpp \
+  /usr/local/include/boost/preprocessor/facilities/identity.hpp \
+  /usr/local/include/boost/preprocessor/empty.hpp \
+  /usr/local/include/boost/preprocessor/arithmetic/add.hpp \
+  /usr/local/include/boost/preprocessor/arithmetic/dec.hpp \
+  /usr/local/include/boost/preprocessor/control/while.hpp \
+  /usr/local/include/boost/preprocessor/list/fold_left.hpp \
+  /usr/local/include/boost/preprocessor/list/detail/fold_left.hpp \
+  /usr/local/include/boost/preprocessor/control/expr_iif.hpp \
+  /usr/local/include/boost/preprocessor/list/adt.hpp \
+  /usr/local/include/boost/preprocessor/detail/is_binary.hpp \
+  /usr/local/include/boost/preprocessor/detail/check.hpp \
+  /usr/local/include/boost/preprocessor/logical/compl.hpp \
+  /usr/local/include/boost/preprocessor/list/fold_right.hpp \
+  /usr/local/include/boost/preprocessor/list/detail/fold_right.hpp \
+  /usr/local/include/boost/preprocessor/list/reverse.hpp \
+  /usr/local/include/boost/preprocessor/control/detail/while.hpp \
+  /usr/local/include/boost/preprocessor/tuple/elem.hpp \
+  /usr/local/include/boost/preprocessor/facilities/expand.hpp \
+  /usr/local/include/boost/preprocessor/facilities/overload.hpp \
+  /usr/local/include/boost/preprocessor/variadic/size.hpp \
+  /usr/local/include/boost/preprocessor/tuple/rem.hpp \
+  /usr/local/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
+  /usr/local/include/boost/preprocessor/variadic/elem.hpp \
+  /usr/local/include/boost/preprocessor/arithmetic/sub.hpp \
+  /usr/local/include/boost/mpl/aux_/config/overload_resolution.hpp \
+  /usr/local/include/boost/mpl/aux_/lambda_support.hpp \
+  /usr/local/include/boost/mpl/eval_if.hpp \
+  /usr/local/include/boost/mpl/equal_to.hpp \
+  /usr/local/include/boost/mpl/aux_/comparison_op.hpp \
+  /usr/local/include/boost/mpl/aux_/numeric_op.hpp \
+  /usr/local/include/boost/mpl/numeric_cast.hpp \
+  /usr/local/include/boost/mpl/apply_wrap.hpp \
+  /usr/local/include/boost/mpl/aux_/has_apply.hpp \
+  /usr/local/include/boost/mpl/has_xxx.hpp \
+  /usr/local/include/boost/mpl/aux_/type_wrapper.hpp \
+  /usr/local/include/boost/mpl/aux_/yes_no.hpp \
+  /usr/local/include/boost/mpl/aux_/config/arrays.hpp \
+  /usr/local/include/boost/mpl/aux_/config/has_xxx.hpp \
+  /usr/local/include/boost/mpl/aux_/config/msvc_typename.hpp \
+  /usr/local/include/boost/preprocessor/array/elem.hpp \
+  /usr/local/include/boost/preprocessor/array/data.hpp \
+  /usr/local/include/boost/preprocessor/array/size.hpp \
+  /usr/local/include/boost/preprocessor/repetition/enum_params.hpp \
+  /usr/local/include/boost/preprocessor/repetition/enum_trailing_params.hpp \
+  /usr/local/include/boost/mpl/aux_/config/has_apply.hpp \
+  /usr/local/include/boost/mpl/aux_/msvc_never_true.hpp \
+  /usr/local/include/boost/mpl/aux_/config/use_preprocessed.hpp \
+  /usr/local/include/boost/mpl/aux_/include_preprocessed.hpp \
+  /usr/local/include/boost/mpl/aux_/config/compiler.hpp \
+  /usr/local/include/boost/preprocessor/stringize.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp \
+  /usr/local/include/boost/mpl/tag.hpp \
+  /usr/local/include/boost/mpl/void.hpp \
+  /usr/local/include/boost/mpl/aux_/has_tag.hpp \
+  /usr/local/include/boost/mpl/aux_/numeric_cast_utils.hpp \
+  /usr/local/include/boost/mpl/aux_/config/forwarding.hpp \
+  /usr/local/include/boost/mpl/aux_/msvc_eti_base.hpp \
+  /usr/local/include/boost/mpl/aux_/is_msvc_eti_arg.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp \
+  /usr/local/include/boost/mpl/not.hpp \
+  /usr/local/include/boost/mpl/aux_/nested_type_wknd.hpp \
+  /usr/local/include/boost/mpl/and.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/and.hpp \
+  /usr/local/include/boost/mpl/identity.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/int_float_mixture.hpp \
+  /usr/local/include/boost/limits.hpp \
+  /usr/local/include/boost/numeric/conversion/int_float_mixture_enum.hpp \
+  /usr/local/include/boost/mpl/integral_c.hpp \
+  /usr/local/include/boost/mpl/integral_c_fwd.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/sign_mixture.hpp \
+  /usr/local/include/boost/numeric/conversion/sign_mixture_enum.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/udt_builtin_mixture.hpp \
+  /usr/local/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/is_subranged.hpp \
+  /usr/local/include/boost/mpl/multiplies.hpp \
+  /usr/local/include/boost/mpl/times.hpp \
+  /usr/local/include/boost/mpl/aux_/arithmetic_op.hpp \
+  /usr/local/include/boost/mpl/aux_/largest_int.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/times.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessor/default_params.hpp \
+  /usr/local/include/boost/mpl/less.hpp \
+  /usr/local/include/boost/mpl/aux_/preprocessed/gcc/less.hpp \
+  /usr/local/include/boost/numeric/conversion/converter_policies.hpp \
+  /usr/local/include/boost/config/no_tr1/cmath.hpp \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/math.h \
+  /usr/include/math.h /usr/local/include/boost/throw_exception.hpp \
+  /usr/local/include/boost/exception/exception.hpp \
+  /usr/local/include/boost/current_function.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/converter.hpp \
+  /usr/local/include/boost/numeric/conversion/bounds.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/bounds.hpp \
+  /usr/local/include/boost/numeric/conversion/numeric_cast_traits.hpp \
+  /usr/local/include/boost/cstdint.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp \
+  /usr/local/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp \
+  src/thrift/protocol/TProtocolException.h \
+  /usr/local/include/boost/static_assert.hpp /usr/include/sys/param.h \
+  /usr/include/machine/param.h /usr/include/i386/param.h \
+  src/thrift/transport/TBufferTransports.h \
+  /usr/local/include/boost/scoped_array.hpp \
+  /usr/local/include/boost/smart_ptr/scoped_array.hpp \
+  /usr/local/include/boost/assert.hpp \
+  /usr/local/include/boost/checked_delete.hpp \
+  /usr/local/include/boost/core/checked_delete.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+  /usr/local/include/boost/smart_ptr/detail/sp_noexcept.hpp \
+  /usr/local/include/boost/smart_ptr/detail/operator_bool.hpp \
+  src/thrift/transport/TVirtualTransport.h src/thrift/TToString.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/sstream \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/ostream \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__locale \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/mutex \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/chrono \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/ctime \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/cerrno \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__threading_support \
+  /usr/include/pthread.h /usr/include/pthread/pthread_impl.h \
+  /usr/include/pthread/sched.h /usr/include/pthread/qos.h \
+  /usr/include/sys/qos.h /usr/include/sys/_types/_mach_port_t.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale.h \
+  /usr/include/locale.h /usr/include/_locale.h /usr/include/xlocale.h \
+  /usr/include/_xlocale.h /usr/include/xlocale/_ctype.h \
+  /usr/include/xlocale/__wctype.h /usr/include/xlocale/_inttypes.h \
+  /usr/include/xlocale/_stdio.h /usr/include/xlocale/_stdlib.h \
+  /usr/include/xlocale/_string.h /usr/include/xlocale/_time.h \
+  /usr/include/xlocale/_wchar.h /usr/include/xlocale/_wctype.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/streambuf \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/locale \
+  /usr/include/nl_types.h /usr/include/_types/_nl_item.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/bitset \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/istream \
+  /Library/Developer/CommandLineTools/usr/include/c++/v1/cassert
+
+src/thrift/protocol/TDebugProtocol.h:
+
+src/thrift/protocol/TVirtualProtocol.h:
+
+src/thrift/protocol/TProtocol.h:
+
+src/thrift/transport/TTransport.h:
+
+src/thrift/Thrift.h:
+
+src/thrift/transport/PlatformSocket.h:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/errno.h:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__config:
+
+/usr/include/errno.h:
+
+/usr/include/sys/errno.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/sys/_symbol_aliasing.h:
+
+/usr/include/sys/_posix_availability.h:
+
+src/thrift/thrift-config.h:
+
+src/thrift/config.h:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/stdio.h:
+
+/usr/include/stdio.h:
+
+/usr/include/Availability.h:
+
+/usr/include/AvailabilityInternal.h:
+
+/usr/include/_types.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/i386/_types.h:
+
+/usr/include/sys/_pthread/_pthread_types.h:
+
+/usr/include/sys/_types/_va_list.h:
+
+/usr/include/machine/types.h:
+
+/usr/include/i386/types.h:
+
+/usr/include/sys/_types/_int8_t.h:
+
+/usr/include/sys/_types/_int16_t.h:
+
+/usr/include/sys/_types/_int32_t.h:
+
+/usr/include/sys/_types/_int64_t.h:
+
+/usr/include/sys/_types/_u_int8_t.h:
+
+/usr/include/sys/_types/_u_int16_t.h:
+
+/usr/include/sys/_types/_u_int32_t.h:
+
+/usr/include/sys/_types/_u_int64_t.h:
+
+/usr/include/sys/_types/_intptr_t.h:
+
+/usr/include/sys/_types/_uintptr_t.h:
+
+/usr/include/sys/_types/_size_t.h:
+
+/usr/include/sys/_types/_null.h:
+
+/usr/include/sys/stdio.h:
+
+/usr/include/sys/_types/_off_t.h:
+
+/usr/include/sys/_types/_ssize_t.h:
+
+/usr/include/assert.h:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/stdlib.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/sys/wait.h:
+
+/usr/include/sys/_types/_pid_t.h:
+
+/usr/include/sys/_types/_id_t.h:
+
+/usr/include/sys/signal.h:
+
+/usr/include/sys/appleapiopts.h:
+
+/usr/include/machine/signal.h:
+
+/usr/include/i386/signal.h:
+
+/usr/include/machine/_mcontext.h:
+
+/usr/include/i386/_mcontext.h:
+
+/usr/include/mach/machine/_structs.h:
+
+/usr/include/mach/i386/_structs.h:
+
+/usr/include/sys/_pthread/_pthread_attr_t.h:
+
+/usr/include/sys/_types/_sigaltstack.h:
+
+/usr/include/sys/_types/_ucontext.h:
+
+/usr/include/sys/_types/_sigset_t.h:
+
+/usr/include/sys/_types/_uid_t.h:
+
+/usr/include/sys/resource.h:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/stdint.h:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/_types/_uint8_t.h:
+
+/usr/include/_types/_uint16_t.h:
+
+/usr/include/_types/_uint32_t.h:
+
+/usr/include/_types/_uint64_t.h:
+
+/usr/include/_types/_intmax_t.h:
+
+/usr/include/_types/_uintmax_t.h:
+
+/usr/include/sys/_types/_timeval.h:
+
+/usr/include/machine/endian.h:
+
+/usr/include/i386/endian.h:
+
+/usr/include/sys/_endian.h:
+
+/usr/include/libkern/_OSByteOrder.h:
+
+/usr/include/libkern/i386/_OSByteOrder.h:
+
+/usr/include/alloca.h:
+
+/usr/include/sys/_types/_ct_rune_t.h:
+
+/usr/include/sys/_types/_rune_t.h:
+
+/usr/include/sys/_types/_wchar_t.h:
+
+/usr/include/sys/_types/_dev_t.h:
+
+/usr/include/sys/_types/_mode_t.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/sys/_types/_u_char.h:
+
+/usr/include/sys/_types/_u_short.h:
+
+/usr/include/sys/_types/_u_int.h:
+
+/usr/include/sys/_types/_caddr_t.h:
+
+/usr/include/sys/_types/_blkcnt_t.h:
+
+/usr/include/sys/_types/_blksize_t.h:
+
+/usr/include/sys/_types/_gid_t.h:
+
+/usr/include/sys/_types/_in_addr_t.h:
+
+/usr/include/sys/_types/_in_port_t.h:
+
+/usr/include/sys/_types/_ino_t.h:
+
+/usr/include/sys/_types/_ino64_t.h:
+
+/usr/include/sys/_types/_key_t.h:
+
+/usr/include/sys/_types/_nlink_t.h:
+
+/usr/include/sys/_types/_clock_t.h:
+
+/usr/include/sys/_types/_time_t.h:
+
+/usr/include/sys/_types/_useconds_t.h:
+
+/usr/include/sys/_types/_suseconds_t.h:
+
+/usr/include/sys/_types/_rsize_t.h:
+
+/usr/include/sys/_types/_errno_t.h:
+
+/usr/include/sys/_types/_fd_def.h:
+
+/usr/include/sys/_types/_fd_setsize.h:
+
+/usr/include/sys/_types/_fd_set.h:
+
+/usr/include/sys/_types/_fd_clr.h:
+
+/usr/include/sys/_types/_fd_zero.h:
+
+/usr/include/sys/_types/_fd_isset.h:
+
+/usr/include/sys/_types/_fd_copy.h:
+
+/usr/include/sys/_pthread/_pthread_cond_t.h:
+
+/usr/include/sys/_pthread/_pthread_condattr_t.h:
+
+/usr/include/sys/_pthread/_pthread_mutex_t.h:
+
+/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
+
+/usr/include/sys/_pthread/_pthread_once_t.h:
+
+/usr/include/sys/_pthread/_pthread_rwlock_t.h:
+
+/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
+
+/usr/include/sys/_pthread/_pthread_t.h:
+
+/usr/include/sys/_pthread/_pthread_key_t.h:
+
+/usr/include/sys/_types/_fsblkcnt_t.h:
+
+/usr/include/sys/_types/_fsfilcnt_t.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/machine/_param.h:
+
+/usr/include/i386/_param.h:
+
+/usr/include/net/net_kev.h:
+
+/usr/include/sys/_types/_sa_family_t.h:
+
+/usr/include/sys/_types/_socklen_t.h:
+
+/usr/include/sys/_types/_iovec_t.h:
+
+/usr/include/netinet6/in6.h:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/inttypes.h:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/inttypes.h:
+
+/usr/include/inttypes.h:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string_view:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__string:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/initializer_list:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/cstddef:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/stddef.h:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/__stddef_max_align_t.h:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__nullptr:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/type_traits:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/cstring:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/string.h:
+
+/usr/include/string.h:
+
+/usr/include/strings.h:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/utility:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__tuple:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__debug:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/memory:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/typeinfo:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/exception:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/cstdlib:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/cstdint:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/new:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/limits:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__undef_min_max:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iterator:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/iosfwd:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/wchar.h:
+
+/usr/include/wchar.h:
+
+/usr/include/sys/_types/_mbstate_t.h:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/stdarg.h:
+
+/usr/include/time.h:
+
+/usr/include/sys/_types/_timespec.h:
+
+/usr/include/_wctype.h:
+
+/usr/include/sys/_types/_wint_t.h:
+
+/usr/include/_types/_wctype_t.h:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ctype.h:
+
+/usr/include/ctype.h:
+
+/usr/include/runetype.h:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/tuple:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/stdexcept:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/atomic:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/cstdio:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/cwchar:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/cwctype:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/cctype:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/wctype.h:
+
+/usr/include/wctype.h:
+
+/usr/include/_types/_wctrans_t.h:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/map:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__tree:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/functional:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/list:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/set:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/vector:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/climits:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/limits.h:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include/limits.h:
+
+/usr/include/limits.h:
+
+/usr/include/machine/limits.h:
+
+/usr/include/i386/limits.h:
+
+/usr/include/i386/_limits.h:
+
+/usr/include/sys/syslimits.h:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer:
+
+/usr/local/include/boost/utility/enable_if.hpp:
+
+/usr/local/include/boost/core/enable_if.hpp:
+
+/usr/local/include/boost/config.hpp:
+
+/usr/local/include/boost/config/user.hpp:
+
+/usr/local/include/boost/config/detail/select_compiler_config.hpp:
+
+/usr/local/include/boost/config/compiler/clang.hpp:
+
+/usr/local/include/boost/config/detail/select_stdlib_config.hpp:
+
+/usr/local/include/boost/config/stdlib/libcpp.hpp:
+
+/usr/local/include/boost/config/detail/select_platform_config.hpp:
+
+/usr/local/include/boost/config/platform/macos.hpp:
+
+/usr/local/include/boost/config/detail/posix_features.hpp:
+
+/usr/include/unistd.h:
+
+/usr/include/sys/unistd.h:
+
+/usr/include/sys/_types/_posix_vdisable.h:
+
+/usr/include/sys/_types/_seek_set.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/_select.h:
+
+/usr/include/sys/_types/_uuid_t.h:
+
+/usr/include/gethostuuid.h:
+
+/usr/local/include/boost/config/detail/suffix.hpp:
+
+/usr/local/include/boost/type_traits/is_convertible.hpp:
+
+/usr/local/include/boost/type_traits/intrinsics.hpp:
+
+/usr/local/include/boost/type_traits/detail/config.hpp:
+
+/usr/local/include/boost/version.hpp:
+
+/usr/local/include/boost/detail/workaround.hpp:
+
+/usr/local/include/boost/config/workaround.hpp:
+
+/usr/local/include/boost/type_traits/integral_constant.hpp:
+
+src/thrift/TLogging.h:
+
+src/thrift/TOutput.h:
+
+src/thrift/stdcxx.h:
+
+src/thrift/transport/TTransportException.h:
+
+/usr/local/include/boost/numeric/conversion/cast.hpp:
+
+/usr/local/include/boost/type.hpp:
+
+/usr/local/include/boost/numeric/conversion/converter.hpp:
+
+/usr/local/include/boost/numeric/conversion/conversion_traits.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/conversion_traits.hpp:
+
+/usr/local/include/boost/type_traits/is_arithmetic.hpp:
+
+/usr/local/include/boost/type_traits/is_integral.hpp:
+
+/usr/local/include/boost/type_traits/is_floating_point.hpp:
+
+/usr/local/include/boost/type_traits/is_same.hpp:
+
+/usr/local/include/boost/type_traits/remove_cv.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/meta.hpp:
+
+/usr/local/include/boost/mpl/if.hpp:
+
+/usr/local/include/boost/mpl/aux_/value_wknd.hpp:
+
+/usr/local/include/boost/mpl/aux_/static_cast.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/workaround.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/integral.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/msvc.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/eti.hpp:
+
+/usr/local/include/boost/mpl/aux_/na_spec.hpp:
+
+/usr/local/include/boost/mpl/lambda_fwd.hpp:
+
+/usr/local/include/boost/mpl/void_fwd.hpp:
+
+/usr/local/include/boost/mpl/aux_/adl_barrier.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/adl.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/intel.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/gcc.hpp:
+
+/usr/local/include/boost/mpl/aux_/na.hpp:
+
+/usr/local/include/boost/mpl/bool.hpp:
+
+/usr/local/include/boost/mpl/bool_fwd.hpp:
+
+/usr/local/include/boost/mpl/integral_c_tag.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/static_constant.hpp:
+
+/usr/local/include/boost/mpl/aux_/na_fwd.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/ctps.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/lambda.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/ttp.hpp:
+
+/usr/local/include/boost/mpl/int.hpp:
+
+/usr/local/include/boost/mpl/int_fwd.hpp:
+
+/usr/local/include/boost/mpl/aux_/nttp_decl.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/nttp.hpp:
+
+/usr/local/include/boost/mpl/aux_/integral_wrapper.hpp:
+
+/usr/local/include/boost/preprocessor/cat.hpp:
+
+/usr/local/include/boost/preprocessor/config/config.hpp:
+
+/usr/local/include/boost/mpl/aux_/lambda_arity_param.hpp:
+
+/usr/local/include/boost/mpl/aux_/template_arity_fwd.hpp:
+
+/usr/local/include/boost/mpl/aux_/arity.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/dtp.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessor/params.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/preprocessor.hpp:
+
+/usr/local/include/boost/preprocessor/comma_if.hpp:
+
+/usr/local/include/boost/preprocessor/punctuation/comma_if.hpp:
+
+/usr/local/include/boost/preprocessor/control/if.hpp:
+
+/usr/local/include/boost/preprocessor/control/iif.hpp:
+
+/usr/local/include/boost/preprocessor/logical/bool.hpp:
+
+/usr/local/include/boost/preprocessor/facilities/empty.hpp:
+
+/usr/local/include/boost/preprocessor/punctuation/comma.hpp:
+
+/usr/local/include/boost/preprocessor/repeat.hpp:
+
+/usr/local/include/boost/preprocessor/repetition/repeat.hpp:
+
+/usr/local/include/boost/preprocessor/debug/error.hpp:
+
+/usr/local/include/boost/preprocessor/detail/auto_rec.hpp:
+
+/usr/local/include/boost/preprocessor/tuple/eat.hpp:
+
+/usr/local/include/boost/preprocessor/inc.hpp:
+
+/usr/local/include/boost/preprocessor/arithmetic/inc.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessor/enum.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
+
+/usr/local/include/boost/mpl/limits/arity.hpp:
+
+/usr/local/include/boost/preprocessor/logical/and.hpp:
+
+/usr/local/include/boost/preprocessor/logical/bitand.hpp:
+
+/usr/local/include/boost/preprocessor/identity.hpp:
+
+/usr/local/include/boost/preprocessor/facilities/identity.hpp:
+
+/usr/local/include/boost/preprocessor/empty.hpp:
+
+/usr/local/include/boost/preprocessor/arithmetic/add.hpp:
+
+/usr/local/include/boost/preprocessor/arithmetic/dec.hpp:
+
+/usr/local/include/boost/preprocessor/control/while.hpp:
+
+/usr/local/include/boost/preprocessor/list/fold_left.hpp:
+
+/usr/local/include/boost/preprocessor/list/detail/fold_left.hpp:
+
+/usr/local/include/boost/preprocessor/control/expr_iif.hpp:
+
+/usr/local/include/boost/preprocessor/list/adt.hpp:
+
+/usr/local/include/boost/preprocessor/detail/is_binary.hpp:
+
+/usr/local/include/boost/preprocessor/detail/check.hpp:
+
+/usr/local/include/boost/preprocessor/logical/compl.hpp:
+
+/usr/local/include/boost/preprocessor/list/fold_right.hpp:
+
+/usr/local/include/boost/preprocessor/list/detail/fold_right.hpp:
+
+/usr/local/include/boost/preprocessor/list/reverse.hpp:
+
+/usr/local/include/boost/preprocessor/control/detail/while.hpp:
+
+/usr/local/include/boost/preprocessor/tuple/elem.hpp:
+
+/usr/local/include/boost/preprocessor/facilities/expand.hpp:
+
+/usr/local/include/boost/preprocessor/facilities/overload.hpp:
+
+/usr/local/include/boost/preprocessor/variadic/size.hpp:
+
+/usr/local/include/boost/preprocessor/tuple/rem.hpp:
+
+/usr/local/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
+
+/usr/local/include/boost/preprocessor/variadic/elem.hpp:
+
+/usr/local/include/boost/preprocessor/arithmetic/sub.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/overload_resolution.hpp:
+
+/usr/local/include/boost/mpl/aux_/lambda_support.hpp:
+
+/usr/local/include/boost/mpl/eval_if.hpp:
+
+/usr/local/include/boost/mpl/equal_to.hpp:
+
+/usr/local/include/boost/mpl/aux_/comparison_op.hpp:
+
+/usr/local/include/boost/mpl/aux_/numeric_op.hpp:
+
+/usr/local/include/boost/mpl/numeric_cast.hpp:
+
+/usr/local/include/boost/mpl/apply_wrap.hpp:
+
+/usr/local/include/boost/mpl/aux_/has_apply.hpp:
+
+/usr/local/include/boost/mpl/has_xxx.hpp:
+
+/usr/local/include/boost/mpl/aux_/type_wrapper.hpp:
+
+/usr/local/include/boost/mpl/aux_/yes_no.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/arrays.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/has_xxx.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/msvc_typename.hpp:
+
+/usr/local/include/boost/preprocessor/array/elem.hpp:
+
+/usr/local/include/boost/preprocessor/array/data.hpp:
+
+/usr/local/include/boost/preprocessor/array/size.hpp:
+
+/usr/local/include/boost/preprocessor/repetition/enum_params.hpp:
+
+/usr/local/include/boost/preprocessor/repetition/enum_trailing_params.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/has_apply.hpp:
+
+/usr/local/include/boost/mpl/aux_/msvc_never_true.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/use_preprocessed.hpp:
+
+/usr/local/include/boost/mpl/aux_/include_preprocessed.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/compiler.hpp:
+
+/usr/local/include/boost/preprocessor/stringize.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
+
+/usr/local/include/boost/mpl/tag.hpp:
+
+/usr/local/include/boost/mpl/void.hpp:
+
+/usr/local/include/boost/mpl/aux_/has_tag.hpp:
+
+/usr/local/include/boost/mpl/aux_/numeric_cast_utils.hpp:
+
+/usr/local/include/boost/mpl/aux_/config/forwarding.hpp:
+
+/usr/local/include/boost/mpl/aux_/msvc_eti_base.hpp:
+
+/usr/local/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp:
+
+/usr/local/include/boost/mpl/not.hpp:
+
+/usr/local/include/boost/mpl/aux_/nested_type_wknd.hpp:
+
+/usr/local/include/boost/mpl/and.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
+
+/usr/local/include/boost/mpl/identity.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/int_float_mixture.hpp:
+
+/usr/local/include/boost/limits.hpp:
+
+/usr/local/include/boost/numeric/conversion/int_float_mixture_enum.hpp:
+
+/usr/local/include/boost/mpl/integral_c.hpp:
+
+/usr/local/include/boost/mpl/integral_c_fwd.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/sign_mixture.hpp:
+
+/usr/local/include/boost/numeric/conversion/sign_mixture_enum.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/udt_builtin_mixture.hpp:
+
+/usr/local/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/is_subranged.hpp:
+
+/usr/local/include/boost/mpl/multiplies.hpp:
+
+/usr/local/include/boost/mpl/times.hpp:
+
+/usr/local/include/boost/mpl/aux_/arithmetic_op.hpp:
+
+/usr/local/include/boost/mpl/aux_/largest_int.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/times.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessor/default_params.hpp:
+
+/usr/local/include/boost/mpl/less.hpp:
+
+/usr/local/include/boost/mpl/aux_/preprocessed/gcc/less.hpp:
+
+/usr/local/include/boost/numeric/conversion/converter_policies.hpp:
+
+/usr/local/include/boost/config/no_tr1/cmath.hpp:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/cmath:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/math.h:
+
+/usr/include/math.h:
+
+/usr/local/include/boost/throw_exception.hpp:
+
+/usr/local/include/boost/exception/exception.hpp:
+
+/usr/local/include/boost/current_function.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/converter.hpp:
+
+/usr/local/include/boost/numeric/conversion/bounds.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/bounds.hpp:
+
+/usr/local/include/boost/numeric/conversion/numeric_cast_traits.hpp:
+
+/usr/local/include/boost/cstdint.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp:
+
+/usr/local/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp:
+
+src/thrift/protocol/TProtocolException.h:
+
+/usr/local/include/boost/static_assert.hpp:
+
+/usr/include/sys/param.h:
+
+/usr/include/machine/param.h:
+
+/usr/include/i386/param.h:
+
+src/thrift/transport/TBufferTransports.h:
+
+/usr/local/include/boost/scoped_array.hpp:
+
+/usr/local/include/boost/smart_ptr/scoped_array.hpp:
+
+/usr/local/include/boost/assert.hpp:
+
+/usr/local/include/boost/checked_delete.hpp:
+
+/usr/local/include/boost/core/checked_delete.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/sp_noexcept.hpp:
+
+/usr/local/include/boost/smart_ptr/detail/operator_bool.hpp:
+
+src/thrift/transport/TVirtualTransport.h:
+
+src/thrift/TToString.h:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/sstream:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ios:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__locale:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/mutex:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/chrono:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ctime:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/ratio:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/system_error:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/cerrno:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__threading_support:
+
+/usr/include/pthread.h:
+
+/usr/include/pthread/pthread_impl.h:
+
+/usr/include/pthread/sched.h:
+
+/usr/include/pthread/qos.h:
+
+/usr/include/sys/qos.h:
+
+/usr/include/sys/_types/_mach_port_t.h:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/locale.h:
+
+/usr/include/locale.h:
+
+/usr/include/_locale.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/_xlocale.h:
+
+/usr/include/xlocale/_ctype.h:
+
+/usr/include/xlocale/__wctype.h:
+
+/usr/include/xlocale/_inttypes.h:
+
+/usr/include/xlocale/_stdio.h:
+
+/usr/include/xlocale/_stdlib.h:
+
+/usr/include/xlocale/_string.h:
+
+/usr/include/xlocale/_time.h:
+
+/usr/include/xlocale/_wchar.h:
+
+/usr/include/xlocale/_wctype.h:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/streambuf:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/locale:
+
+/usr/include/nl_types.h:
+
+/usr/include/_types/_nl_item.h:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/__bsd_locale_defaults.h:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/bitset:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/istream:
+
+/Library/Developer/CommandLineTools/usr/include/c++/v1/cassert:

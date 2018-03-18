@@ -1,0 +1,13 @@
+#! /bin/sh
+#
+# Created by configure
+
+CPPFLAGS='-I/usr/local/opt/openssl/include' \
+LDFLAGS='-L/usr/local/opt/openssl/lib' \
+LIBS='-lpthread ' \
+'./configure' \
+'--disable-option-checking' \
+'--prefix=/usr/local' \
+'--cache-file=/dev/null' \
+'--srcdir=.' \
+"$@"
